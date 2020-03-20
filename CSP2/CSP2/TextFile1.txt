@@ -2,6 +2,7 @@
 	->cw
 	->ctor
 	->prop
+	->svm
 
 Class members:
 	-> Instance Members - which are accessible from
@@ -119,5 +120,17 @@ Indexers:
 		set{...}
 	}
 
-
+Section3
+Class Coupling:
+	-> measure of how interconnected classes are.
+	-> loosely couple is ideal
+	-> how ?
+		->Encapsulation
+		->relationship between classes
+			->inheritance
+			->composition
+		->interfaces
 	
+Inheritance:
+		->is-A (A car is a vehicle)
+		->base/parent -> child
