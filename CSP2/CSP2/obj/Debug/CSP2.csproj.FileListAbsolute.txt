@@ -1,0 +1,6 @@
+C:\Users\bbdnet2207\Desktop\C#\C#P2\CSP2\CSP2\bin\Debug\CSP2.exe.config
+C:\Users\bbdnet2207\Desktop\C#\C#P2\CSP2\CSP2\bin\Debug\CSP2.exe
+C:\Users\bbdnet2207\Desktop\C#\C#P2\CSP2\CSP2\bin\Debug\CSP2.pdb
+C:\Users\bbdnet2207\Desktop\C#\C#P2\CSP2\CSP2\obj\Debug\CSP2.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet2207\Desktop\C#\C#P2\CSP2\CSP2\obj\Debug\CSP2.exe
+C:\Users\bbdnet2207\Desktop\C#\C#P2\CSP2\CSP2\obj\Debug\CSP2.pdb

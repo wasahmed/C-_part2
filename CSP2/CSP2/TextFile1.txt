@@ -1,0 +1,72 @@
+﻿Shortcuts
+	->cw
+	->ctor
+
+Class members:
+	-> Instance Members - which are accessible from
+	an object.
+		-> var person = new Person()
+		person.method();
+
+	-> Static members - which are accessible from
+	the class
+		-> Console.WriteLine();
+		-> Class.Method();
+		-> for singleton concepts
+		->eg. we only have one console
+		->dateTime();
+		-> static keyword
+
+
+Constructors:
+	-> C# auto creates a default constructor if not
+	create. In IL
+	->"this" - references the current object
+	->ctor - constructor shortcut
+	-> Can have multiple constructors with different
+	signatures (Constructor overloading).
+		->makes initialisation easier depending on the 
+		known parameters
+	->only use constructors when you really need early
+	initialisation
+
+Object Initialiser
+	-> to quickly initialise an object without the need of
+	calling one of its constructors.
+	->		var person = new Person()
+				{
+					FirstName = "waseem",
+					LastName = "ahmed"
+				};
+	-> default constructor will be used
+
+
+Methods
+	-> can have method overloads = method with same 
+	signature but different signatures
+	->Method with varying number of params
+		->Eg calculator Add method
+		public class Calculator
+		{
+			public int Add (params int[] numbers){}
+		}
+		var result = calculator.Add(new int[] {1,2,3,4});
+		OR var result = calculator.Add(1,2,3,4); -when
+		params modifier is added to the signature of the
+		Add method
+
+	-> ref modifier
+	works with value types
+	include ref modifier to the method signature
+
+	->out modifier
+		-> can return a value to the caller
+		public class MyClass
+		{
+			public void MyMethod(out int result)
+			{
+				result = 1;
+			}
+		}
+		int a;
+		myClass.MyMethod(out a);
