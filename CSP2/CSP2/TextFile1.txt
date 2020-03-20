@@ -1,6 +1,7 @@
 ﻿Shortcuts
 	->cw
 	->ctor
+	->prop
 
 Class members:
 	-> Instance Members - which are accessible from
@@ -102,6 +103,21 @@ Access Modifiers
 					return Name;
 				}
 			}
+		-> objects should hide their implementation details
+		and rather show what they can do.
+
+Properties:
+	->to create a getter setter with less code
+	-> recap to understand IL code
+
+Indexers:
+	->HttpCookie()
+	->cookie["name"] = "X"; - instance
+	public string this[string key]
+	{
+		get{...}
+		set{...}
+	}
 
 
 	
