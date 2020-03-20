@@ -9,7 +9,15 @@ namespace CSP2
    
     class Methods
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        //{
+        //    var customer = new Customer2(2);
+        //    customer.Orders.Add(new Order1());
+        //    //customer.Promote();
+        //    Console.WriteLine(customer.Orders.Count);      
+        //}
+
+        static void UseOut()
         {
             //var number = int.Parse("abc");
             //use try catch with int.Parse

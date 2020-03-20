@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessModifiers.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Customer2.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Point.cs" />

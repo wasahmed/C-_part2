@@ -70,3 +70,38 @@ Methods
 		}
 		int a;
 		myClass.MyMethod(out a);
+
+Fields:
+	-> variable on class level
+	-> readonly fields - so it is only assigned once
+
+Access Modifiers
+	-public
+	-private
+	-protected
+	-internal
+	-protected internal
+	
+	encapsulation - info hiding
+		-> roles
+		-> in practice
+			- define fields as private
+			- provide getter/setter methods as public so u can access fields
+			public class Person
+			{
+				private string Name; - now when creating an instance we wont have access to Name fields therefore use getters and setters
+
+				public void SetName(string name)
+				{
+					if (!String.IsNullOrEmpty(name))
+						this.Name = name;
+				}
+
+				public string GetName()
+				{
+					return Name;
+				}
+			}
+
+
+	
